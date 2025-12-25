@@ -4,7 +4,6 @@ title: Tags
 ---
 
 # 🏷️ Tags
-{{ site.recettes | size }}
 <ul>
 {% assign all_tags = "" | split: "" %}
 
