@@ -6,8 +6,19 @@ title: Tags
 # 🏷️ Tags
 
 <ul>
-{% assign tags = site.recettes | map: "tags" | compact | uniq | sort %}
-{% for tag in tags %}
+{% assign all_tags = "" | split: "" %}
+
+{% for recette in site.recettes %}
+  {% for tag in recette.tags %}
+    {% unless all_tags contains tag %}
+      {% assign all_tags = all_tags | push: tag %}
+    {% endunless %}
+  {% endfor %}
+{% endfor %}
+
+{% assign all_tags = all_tags | sort %}
+
+{% for tag in all_tags %}
   <li>
     <a href="/tags/{{ tag | slugify }}/">#{{ tag }}</a>
   </li>
