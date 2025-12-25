@@ -12,7 +12,7 @@ Bienvenue sur le site des recettes des Da Col. Il y a actuellement {{ site.recet
 - [Desserts](#)
 
 ## Explorer
-- [Par tags](/tags.md)
+- [Par tags](da-col-cookbook/tags/)
 
 ## Toutes les recettes
 <ul>
