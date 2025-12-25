@@ -7,9 +7,8 @@ time: "30 min"
 number: 4
 tags:
   - végétarien
-  - léger
-  - économique
-  - base  
+  - rapide
+  - économique 
 ---
 
 ## Ingrédients

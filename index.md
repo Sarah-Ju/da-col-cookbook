@@ -15,6 +15,3 @@ Bienvenue sur le site des recettes des Da Col.
 - [Toutes les recettes](/)
 - [Par tags](/tags/)
 
-## Dernières recettes
-- [Bouillon de poireaux](/recettes/bouillon_poireaux/)
-- [Cookies](/recettes/cookies/)
