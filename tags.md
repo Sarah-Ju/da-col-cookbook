@@ -19,7 +19,7 @@ title: Tags
 
 {% for tag in all_tags %}
   <li>
-    <a href="/tags/{{ tag | slugify }}/">#{{ tag }}</a>
+    <a href="{{ site.baseurl }}/tags/{{ tag | slugify }}/">#{{ tag }}</a>
   </li>
 {% endfor %}
 </ul>
