@@ -7,7 +7,7 @@ layout: default
 {% for recette in site.recettes %}
   {% if recette.tags contains page.tag %}
     <li>
-      <a href="{{ recette.url }}">{{ recette.title }}</a>
+      <a href="{{ site.baseurl }}{{ recette.url }}">{{ recette.title }}</a>
       — {{ recette.time }}
     </li>
   {% endif %}
