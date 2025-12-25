@@ -8,11 +8,10 @@ layout: default
   <p>
     <strong>Catégorie :</strong> {{ page.category }}<br>
     <strong>Difficulté :</strong> {{ page.difficulty }}<br>
-    <strong>Temps :</strong> {{ page.time }}<br>
-    <strong>Nombre de convives :</strong> {{ page.number }}
+    <strong>Temps :</strong> {{ page.time }}
   </p>
 
-    {% if page.tags %}
+  {% if page.tags %}
     <p>
       <strong>Tags :</strong>
       {% for tag in page.tags %}
