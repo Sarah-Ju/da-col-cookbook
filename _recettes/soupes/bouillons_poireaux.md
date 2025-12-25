@@ -6,9 +6,9 @@ difficulty: "Très facile"
 time: "30 min"
 number: 4
 tags:
-  - végétarien
+  - vegetarien
   - rapide
-  - économique 
+  - economique 
 ---
 
 ## Ingrédients

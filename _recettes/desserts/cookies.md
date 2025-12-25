@@ -5,9 +5,8 @@ category: "Desserts"
 difficulty: "Facile"
 time: "25 min"
 tags:
-  - sucré
+  - dessert
   - rapide
-  - enfants
 ---
 
 ## Ingrédients
