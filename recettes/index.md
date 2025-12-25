@@ -11,6 +11,10 @@ Bienvenue sur le site des recettes des Da Col.
 - [Soupes](#)
 - [Desserts](#)
 
+## Explorer
+- [Toutes les recettes](/)
+- [Par tags](/tags/)
+
 ## Dernières recettes
 - [Bouillon de poireaux](/recettes/bouillon_poireaux/)
 - [Cookies](/recettes/cookies/)

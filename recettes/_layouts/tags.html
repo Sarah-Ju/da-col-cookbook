@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<h1>Recettes avec le tag : {{ page.tag }}</h1>
+
+<ul>
+{% for recette in site.recettes %}
+  {% if recette.tags contains page.tag %}
+    <li>
+      <a href="{{ recette.url }}">{{ recette.title }}</a>
+      ({{ recette.time }})
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>

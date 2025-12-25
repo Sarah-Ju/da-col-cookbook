@@ -4,7 +4,12 @@ title: "Bouillon de poireaux"
 category: "Soupes"
 difficulty: "Très facile"
 time: "30 min"
-number: 4  
+number: 4
+tags:
+  - végétarien
+  - léger
+  - économique
+  - base  
 ---
 
 ## Ingrédients

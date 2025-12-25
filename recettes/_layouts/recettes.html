@@ -12,5 +12,14 @@ layout: default
     <strong>Nombre de convives :</strong> {{ page.number }}
   </p>
 
+    {% if page.tags %}
+    <p>
+      <strong>Tags :</strong>
+      {% for tag in page.tags %}
+        <a href="/tags/{{ tag | slugify }}/">#{{ tag }}</a>
+      {% endfor %}
+    </p>
+  {% endif %}
+
   {{ content }}
 </article>
