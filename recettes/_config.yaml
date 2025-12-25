@@ -1,0 +1,9 @@
+title: "Livre des recettes des Da Col"
+description: "Recettes simples et moins simples pour tous les jours"
+theme: minima
+markdown: kramdown
+
+collections:
+  recettes:
+    output: true
+    permalink: /recettes/:name/
