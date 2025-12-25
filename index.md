@@ -18,7 +18,8 @@ Bienvenue sur le site des recettes des Da Col. Il y a actuellement {{ site.recet
 <ul>
 {% for recette in site.recettes %}
   <li>
-    <a href="/{{ recette.url }}">{{ recette.title }}</a>
+    [{{ recette.title }}](/{{ recette.url }})<br>
+    <a href="{{ recette.url }}">{{ recette.title }}</a>
   </li>
 {% endfor %}
 </ul>
