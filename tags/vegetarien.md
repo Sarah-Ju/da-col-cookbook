@@ -1,6 +1,6 @@
 ---
 layout: tag
-tag: végétarien
+tag: vegetarien
 title: "Recettes végétariennes"
 permalink: /tags/vegetarien/
 ---
