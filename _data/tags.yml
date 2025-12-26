@@ -1,0 +1,104 @@
+# Tags officiels du site de recettes
+# Règles :
+# - minuscules
+# - sans accents
+# - sans espaces (tiret autorisé)
+# - maximum 5 tags par recette
+
+regime:
+  label: "Régime alimentaire"
+  tags:
+    - id: vegetarien
+      label: "Végétarien"
+    - id: vegan
+      label: "Vegan"
+    - id: sans-gluten
+      label: "Sans gluten"
+    - id: sans-lactose
+      label: "Sans lactose"
+    - id: leger
+      label: "Léger"
+
+temps_difficulte:
+  label: "Temps & difficulté"
+  tags:
+    - id: tres-rapide
+      label: "Très rapide (≤ 15 min)"
+    - id: rapide
+      label: "Rapide (≤ 30 min)"
+    - id: facile
+      label: "Facile"
+    - id: intermediaire
+      label: "Intermédiaire"
+    - id: avance
+      label: "Avancé"
+
+technique:
+  label: "Technique & cuisson"
+  tags:
+    - id: four
+      label: "Cuisson au four"
+    - id: poele
+      label: "À la poêle"
+    - id: vapeur
+      label: "Vapeur"
+    - id: mijote
+      label: "Mijoté"
+    - id: sans-cuisson
+      label: "Sans cuisson"
+    - id: one-pot
+      label: "One pot"
+
+usage:
+  label: "Usage & occasions"
+  tags:
+    - id: quotidien
+      label: "Du quotidien"
+    - id: repas-famille
+      label: "Repas en famille"
+    - id: apero
+      label: "Apéritif"
+    - id: brunch
+      label: "Brunch"
+    - id: batch-cooking
+      label: "Batch cooking"
+
+ingredients:
+  label: "Ingrédients clés"
+  tags:
+    - id: legumes
+      label: "Légumes"
+    - id: poulet
+      label: "Poulet"
+    - id: boeuf
+      label: "Bœuf"
+    - id: poisson
+      label: "Poisson"
+    - id: chocolat
+      label: "Chocolat"
+    - id: fromage
+      label: "Fromage"
+
+origine:
+  label: "Origine & inspiration"
+  tags:
+    - id: francais
+      label: "Cuisine française"
+    - id: italien
+      label: "Cuisine italienne"
+    - id: asiatique
+      label: "Cuisine asiatique"
+    - id: mediterraneen
+      label: "Cuisine méditerranéenne"
+
+desserts:
+  label: "Desserts"
+  tags:
+    - id: sucre
+      label: "Sucré"
+    - id: gourmand
+      label: "Gourmand"
+    - id: ete
+      label: "Dessert d’été"
+    - id: noel
+      label: "Dessert de Noël"
