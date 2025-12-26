@@ -8,8 +8,11 @@ title: Accueil
 Bienvenue sur le site des recettes des Da Col. Il y a actuellement {{ site.recettes | size }} recettes sur le site. Bon appétit !
 
 ## Catégories
-- [Soupes](#)
-- [Desserts](#)
+- [Soupes]({{ site.baseurl }}/categories/soupes/)
+- [Entrées]({{ site.baseurl }}/categories/entrees/)
+- [Plats]({{ site.baseurl }}/categories/plats/)
+- [Desserts]({{ site.baseurl }}/categories/desserts/)
+
 
 ## Explorer
 - [Par tags](/tags.md)
