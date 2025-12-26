@@ -29,3 +29,4 @@ tags:
 
 ## Astuces
 Peut servir de base pour une soupe ou un risotto.
+Servir avec des tranches de pain et du fromage ou une tartinade pour faire un repas complet rapide.
