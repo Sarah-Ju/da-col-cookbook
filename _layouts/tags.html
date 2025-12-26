@@ -2,9 +2,16 @@
 layout: default
 ---
 
+<h1>TAG : {{ page.tag }}</h1>
+<p>Nombre total de recettes : {{ site.recettes | size }}</p>
+
+<ul>
+{% for r in site.recettes %}
+  <li>{{ r.title }} → {{ r.tags | join: ", " }}</li>
+{% endfor %}
+</ul>
+
 <h1>{{ page.title }}</h1>
-<p>Page tag : {{ page.tag }}</p>
-<p>Nombre de recettes : {{ site.recettes | size }}</p>
 <ul>
 {% for recette in site.recettes %}
   {% if recette.tags contains page.tag %}
