@@ -1,5 +1,6 @@
 ---
 layout: tag
-tag: économique
+tag: economique
 title: "Recettes économiques"
+permalink: /tags/economique/
 ---
